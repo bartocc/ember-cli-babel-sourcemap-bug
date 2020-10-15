@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Chrome",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}/dist",
+      "sourceMapPathOverrides": {
+        "ember-cli-babel-sourcemap-bug/*": "${workspaceFolder}/app/*"
+      }
+    }
+  ]
+
+}
